@@ -1,0 +1,14 @@
+
+index.js 
+import Routes from '../router/routes'
+
+
+problem is
+
+
+./src/index.js
+Module not found: You attempted to import ../router/routes which falls outside of the project src/ directory. Relative imports outside of src/ are not supported.
+
+solve problem
+
+import Routes from '../src/router/routes'
